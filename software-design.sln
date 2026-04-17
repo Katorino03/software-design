@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.11.35312.102
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11709.299
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "week-1", "week-1", "{A6555F1A-B1AA-4432-BEFA-4312196DC09E}"
 EndProject
@@ -38,6 +38,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab8", "lab8\lab8.csproj", "{2CC0B5AB-7F1A-43A0-98B8-27868DE7FD53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab9", "lab9\lab9.csproj", "{13A24C84-D906-44B6-92CD-4D88BF2B8F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFibonacciSequence", "RecursiveFibonacciSequence\RecursiveFibonacciSequence.csproj", "{B607CD2F-E0D5-4E89-922C-5CC1C347CF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursivePowerCalculation", "RecursivePowerCalculation\RecursivePowerCalculation.csproj", "{552954EA-507F-4C63-B0A8-9716823B22F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "C:\Users\Van Kenneth B Flores\source\repos\software-design\BubbleSort\BubbleSort.csproj", "{91723E34-9F39-DFA5-46DC-66DA74FCD647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomDescendingOrder", "C:\Users\Van Kenneth B Flores\source\repos\software-design\CustomDescendingOrder\CustomDescendingOrder.csproj", "{6EA846A4-4F02-5F43-48F0-D05BBC8766F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "C:\Users\Van Kenneth B Flores\source\repos\software-design\Task4\Task4.csproj", "{0958C123-71A3-852A-4968-FE48244056EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +91,26 @@ Global
 		{13A24C84-D906-44B6-92CD-4D88BF2B8F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A24C84-D906-44B6-92CD-4D88BF2B8F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13A24C84-D906-44B6-92CD-4D88BF2B8F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B607CD2F-E0D5-4E89-922C-5CC1C347CF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B607CD2F-E0D5-4E89-922C-5CC1C347CF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B607CD2F-E0D5-4E89-922C-5CC1C347CF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B607CD2F-E0D5-4E89-922C-5CC1C347CF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552954EA-507F-4C63-B0A8-9716823B22F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552954EA-507F-4C63-B0A8-9716823B22F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552954EA-507F-4C63-B0A8-9716823B22F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552954EA-507F-4C63-B0A8-9716823B22F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91723E34-9F39-DFA5-46DC-66DA74FCD647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91723E34-9F39-DFA5-46DC-66DA74FCD647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91723E34-9F39-DFA5-46DC-66DA74FCD647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91723E34-9F39-DFA5-46DC-66DA74FCD647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA846A4-4F02-5F43-48F0-D05BBC8766F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA846A4-4F02-5F43-48F0-D05BBC8766F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA846A4-4F02-5F43-48F0-D05BBC8766F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA846A4-4F02-5F43-48F0-D05BBC8766F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0958C123-71A3-852A-4968-FE48244056EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0958C123-71A3-852A-4968-FE48244056EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0958C123-71A3-852A-4968-FE48244056EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0958C123-71A3-852A-4968-FE48244056EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +125,11 @@ Global
 		{C654B4EF-0A5C-4974-842A-AF5ACD0E038A} = {4815CF74-65A6-4B6B-9F4A-54FF5E1DCF08}
 		{2CC0B5AB-7F1A-43A0-98B8-27868DE7FD53} = {D5BF8E08-2401-4559-B3AC-FAEB9588103B}
 		{13A24C84-D906-44B6-92CD-4D88BF2B8F9A} = {39C3DAE7-6AAD-4602-BC26-D0CDFCCF20E1}
+		{B607CD2F-E0D5-4E89-922C-5CC1C347CF5B} = {EE8739D9-DF08-4912-B8A2-6C11174F84E9}
+		{552954EA-507F-4C63-B0A8-9716823B22F4} = {EE8739D9-DF08-4912-B8A2-6C11174F84E9}
+		{91723E34-9F39-DFA5-46DC-66DA74FCD647} = {A6555F1A-B1AA-4432-BEFA-4312196DC09E}
+		{6EA846A4-4F02-5F43-48F0-D05BBC8766F9} = {A6555F1A-B1AA-4432-BEFA-4312196DC09E}
+		{0958C123-71A3-852A-4968-FE48244056EE} = {A6555F1A-B1AA-4432-BEFA-4312196DC09E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CACC9D6-DA0E-4BAF-B290-8F083C750B50}
