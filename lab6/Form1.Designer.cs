@@ -49,7 +49,7 @@
             btnFetchBooks.Anchor = AnchorStyles.None;
             btnFetchBooks.BackColor = Color.RosyBrown;
             btnFetchBooks.ForeColor = SystemColors.ButtonHighlight;
-            btnFetchBooks.Location = new Point(744, 324);
+            btnFetchBooks.Location = new Point(771, 255);
             btnFetchBooks.Margin = new Padding(3, 4, 3, 4);
             btnFetchBooks.Name = "btnFetchBooks";
             btnFetchBooks.Size = new Size(121, 44);
@@ -62,17 +62,17 @@
             // 
             listBoxBooks.Anchor = AnchorStyles.None;
             listBoxBooks.FormattingEnabled = true;
-            listBoxBooks.Location = new Point(372, 95);
+            listBoxBooks.Location = new Point(399, 84);
             listBoxBooks.Margin = new Padding(3, 4, 3, 4);
             listBoxBooks.Name = "listBoxBooks";
-            listBoxBooks.Size = new Size(366, 224);
+            listBoxBooks.Size = new Size(366, 164);
             listBoxBooks.TabIndex = 1;
             listBoxBooks.SelectedIndexChanged += listBoxBooks_SelectedIndexChanged;
             // 
             // txtAuthorName
             // 
             txtAuthorName.Anchor = AnchorStyles.None;
-            txtAuthorName.Location = new Point(58, 135);
+            txtAuthorName.Location = new Point(91, 85);
             txtAuthorName.Margin = new Padding(3, 4, 3, 4);
             txtAuthorName.Name = "txtAuthorName";
             txtAuthorName.Size = new Size(196, 27);
@@ -82,7 +82,7 @@
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
-            label1.Location = new Point(58, 111);
+            label1.Location = new Point(91, 61);
             label1.Name = "label1";
             label1.Size = new Size(110, 20);
             label1.TabIndex = 3;
@@ -93,7 +93,7 @@
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.Location = new Point(58, 166);
+            label2.Location = new Point(91, 116);
             label2.Name = "label2";
             label2.Size = new Size(79, 20);
             label2.TabIndex = 5;
@@ -102,7 +102,7 @@
             // txtBookTitle
             // 
             txtBookTitle.Anchor = AnchorStyles.None;
-            txtBookTitle.Location = new Point(58, 190);
+            txtBookTitle.Location = new Point(91, 140);
             txtBookTitle.Margin = new Padding(3, 4, 3, 4);
             txtBookTitle.Name = "txtBookTitle";
             txtBookTitle.Size = new Size(196, 27);
@@ -113,7 +113,7 @@
             btnAddBook.Anchor = AnchorStyles.None;
             btnAddBook.BackColor = Color.RosyBrown;
             btnAddBook.ForeColor = SystemColors.ButtonHighlight;
-            btnAddBook.Location = new Point(260, 190);
+            btnAddBook.Location = new Point(293, 140);
             btnAddBook.Margin = new Padding(3, 4, 3, 4);
             btnAddBook.Name = "btnAddBook";
             btnAddBook.Size = new Size(96, 27);
@@ -126,7 +126,7 @@
             // 
             label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
-            label3.Location = new Point(58, 238);
+            label3.Location = new Point(91, 188);
             label3.Name = "label3";
             label3.Size = new Size(65, 20);
             label3.TabIndex = 8;
@@ -135,7 +135,7 @@
             // txtBookID
             // 
             txtBookID.Anchor = AnchorStyles.None;
-            txtBookID.Location = new Point(83, 262);
+            txtBookID.Location = new Point(116, 212);
             txtBookID.Margin = new Padding(3, 4, 3, 4);
             txtBookID.Name = "txtBookID";
             txtBookID.Size = new Size(196, 27);
@@ -146,7 +146,7 @@
             btnSearchBooks.Anchor = AnchorStyles.None;
             btnSearchBooks.BackColor = Color.RosyBrown;
             btnSearchBooks.ForeColor = SystemColors.ButtonHighlight;
-            btnSearchBooks.Location = new Point(744, 55);
+            btnSearchBooks.Location = new Point(771, 44);
             btnSearchBooks.Margin = new Padding(3, 4, 3, 4);
             btnSearchBooks.Name = "btnSearchBooks";
             btnSearchBooks.Size = new Size(121, 37);
@@ -158,7 +158,7 @@
             // txtSearchTitle
             // 
             txtSearchTitle.Anchor = AnchorStyles.None;
-            txtSearchTitle.Location = new Point(372, 60);
+            txtSearchTitle.Location = new Point(399, 49);
             txtSearchTitle.Margin = new Padding(3, 4, 3, 4);
             txtSearchTitle.Name = "txtSearchTitle";
             txtSearchTitle.Size = new Size(366, 27);
@@ -168,7 +168,7 @@
             // 
             progressBar.Anchor = AnchorStyles.None;
             progressBar.BackColor = Color.White;
-            progressBar.Location = new Point(372, 327);
+            progressBar.Location = new Point(399, 264);
             progressBar.Margin = new Padding(3, 4, 3, 4);
             progressBar.Name = "progressBar";
             progressBar.Size = new Size(366, 35);
@@ -179,7 +179,7 @@
             btnUpdateBook.Anchor = AnchorStyles.None;
             btnUpdateBook.BackColor = Color.RosyBrown;
             btnUpdateBook.ForeColor = SystemColors.ButtonHighlight;
-            btnUpdateBook.Location = new Point(58, 318);
+            btnUpdateBook.Location = new Point(80, 255);
             btnUpdateBook.Margin = new Padding(3, 4, 3, 4);
             btnUpdateBook.Name = "btnUpdateBook";
             btnUpdateBook.Size = new Size(121, 44);
@@ -193,7 +193,7 @@
             btnDeleteBook.Anchor = AnchorStyles.None;
             btnDeleteBook.BackColor = Color.RosyBrown;
             btnDeleteBook.ForeColor = SystemColors.ButtonHighlight;
-            btnDeleteBook.Location = new Point(208, 318);
+            btnDeleteBook.Location = new Point(233, 255);
             btnDeleteBook.Margin = new Padding(3, 4, 3, 4);
             btnDeleteBook.Name = "btnDeleteBook";
             btnDeleteBook.Size = new Size(121, 44);
@@ -207,7 +207,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Snow;
-            ClientSize = new Size(982, 453);
+            ClientSize = new Size(982, 381);
             Controls.Add(btnDeleteBook);
             Controls.Add(btnUpdateBook);
             Controls.Add(progressBar);
